@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class RestJavaApplication {
 
     public static void main(String[] args) {
+
         SpringApplication.run(RestJavaApplication.class, args);
+        System.out.println("Hello");
     }
 
 }
